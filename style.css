@@ -15,11 +15,18 @@ h1 {
 
 .nav-list .nav-item {
     font-weight: 600;
+    display: block;
+    padding: 8px;
+    border-radius: 8px;
+    border: 2px solid #000;
+    margin-bottom: 8px;
 }
 
 .nav-item .nav-link {
     color: black;
     text-decoration: none;
+    display: inline-block;
+    padding: 4px;
 }
 
 .nav-item .nav-link:hover {
